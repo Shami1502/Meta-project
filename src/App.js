@@ -1,10 +1,12 @@
 import React from 'react';
+import './App.css';
+import HomePage from './pages/Home/HomePage';
 
 const App = () => {
   return (
-    <div>
-      Ahtesham
-    </div>
+    <>
+    <HomePage />
+    </>
   )
 }
 
