@@ -5,7 +5,8 @@ import Article from '../article/Article';
 
 const Blog = () => {
   return (
-    <div className="gpt3__blog section__padding" id="blog">
+   <>
+     <article className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blog-heading">
       <h1>This week Special</h1>
       <button> Online Menu</button>
@@ -17,7 +18,8 @@ const Blog = () => {
         <Article imgUrl={blog4} date="Brutteca" text="A green salad is a simple and delicious addition to any meal. There are so many different ingredients you can put into a salad. The list of ingredients and the different ways they can be prepared is very vast. Some of the most common vegetables you may find in a green salad are lettuce, spinach, bell peppers, tomatoes, and cucumbers" />
       </div>
     </div>
-  </div>
+  </article>
+   </>
   )
 }
 
